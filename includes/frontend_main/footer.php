@@ -43,7 +43,7 @@
                                     <a href="mailto:<?php echo $contact_details[0]->email ?>" class="nav-link">
                                         <i class="fas fa-envelope mr-2"></i> 
                                         <?php echo $contact_details[0]->email; ?>
-                                    </a>
+                                    </a> 
 
                                     <?php if (!empty($contact_details[0]->opt_email)): ?>
                                         <a href="mailto:<?php echo $contact_details[0]->opt_email ?>" class="nav-link">
