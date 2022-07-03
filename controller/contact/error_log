@@ -1,0 +1,24 @@
+[13-Aug-2021 12:26:00 UTC] PHP Warning:  parse_ini_file(../innovare.properties): failed to open stream: No such file or directory in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 12
+[13-Aug-2021 12:26:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 20
+[13-Aug-2021 12:26:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 20
+[13-Aug-2021 12:26:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 21
+[13-Aug-2021 12:26:00 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 21
+[13-Aug-2021 12:26:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'diablo'@'localhost' (using password: NO) in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php:21
+Stack trace:
+#0 /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php(21): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/scripts.php(79): Connection::getConnection()
+#2 /home/jtr2307tbmmk/public_html/web.innovarelearning.com/controller/contact/contactController.php(10): INNOVARE->__construct()
+#3 {main}
+  thrown in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 21
+[16-Aug-2021 07:56:36 UTC] PHP Warning:  parse_ini_file(../innovare.properties): failed to open stream: No such file or directory in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 12
+[16-Aug-2021 07:56:36 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 20
+[16-Aug-2021 07:56:36 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 20
+[16-Aug-2021 07:56:36 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 21
+[16-Aug-2021 07:56:36 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 21
+[16-Aug-2021 07:56:36 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'diablo'@'localhost' (using password: NO) in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php:21
+Stack trace:
+#0 /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php(21): PDO->__construct('mysql:host=;dbn...', NULL, NULL)
+#1 /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/scripts.php(79): Connection::getConnection()
+#2 /home/jtr2307tbmmk/public_html/web.innovarelearning.com/controller/contact/contactController.php(10): INNOVARE->__construct()
+#3 {main}
+  thrown in /home/jtr2307tbmmk/public_html/web.innovarelearning.com/config/connection.php on line 21

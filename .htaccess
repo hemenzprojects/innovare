@@ -1,0 +1,146 @@
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RedirectMatch 403 ^/static/?$
+RedirectMatch 403 ^/config/?$
+RedirectMatch 403 ^/includes/?$
+RedirectMatch 403 ^/view/?$
+RedirectMatch 403 ^/Database/?$
+RedirectMatch 403 ^/controller/?$
+RewriteOptions inherit
+options -multiviews
+
+<IfModule mod_headers.c>
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+
+RewriteRule ^login$ login.php
+
+RewriteRule ^index$ index.php
+
+RewriteRule ^home$ home.php
+
+
+#############################
+
+RewriteRule ^partners$ partners.php
+
+RewriteRule ^about$ about.php
+
+RewriteRule ^team$ team.php
+
+RewriteRule ^team-member-info/([^/.]*)?$ team_member_details.php?team_member_slug=$1&%{QUERY_STRING}
+
+
+#############################
+
+RewriteRule ^services$ services.php
+
+RewriteRule ^services-offered$ services_offered.php
+
+RewriteRule ^services-offered/([^/.]*)?$ service_details.php?service_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^consulting-services$ consulting.php
+
+RewriteRule ^consulting-services/([^/.]*)?$ consulting_details.php?consulting_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^thought-leadership$ thought_leadership.php
+
+RewriteRule ^thought-leadership/([^/.]*)?$ thought_leadership_details.php?leadership_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^training-courses$ training.php
+
+RewriteRule ^training-course/([^/.]*)?$ course_details.php?course_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^training-courses/category/([^/.]*)?/([^/.]*)?$ course_category.php?course_cat_slug=$1&%{QUERY_STRING}&course_cat_id=$2&%{QUERY_STRING}
+
+RewriteRule ^event-management$ events.php
+
+RewriteRule ^event-management/([^/.]*)?$ event_details.php?event_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^professional-training$ knowledge_transfer.php
+
+RewriteRule ^knowledge-transfer$ knowledge_transfer_2.php
+
+RewriteRule ^cisoaas$ cisoaas.php
+
+RewriteRule ^banking-as-a-service$ baas.php
+
+RewriteRule ^knowledge-transfer/([^/.]*)?$ knowledge_transfer_details.php?knowledge_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^professional-training/partners/([^/.]*)?$ partners_info.php?partners_slug=$1&%{QUERY_STRING}
+
+
+RewriteRule ^adesa$ adesa.php
+
+
+#############################
+
+RewriteRule ^industries$ industries.php
+
+RewriteRule ^industry-details/([^/.]*)?$ industry_details.php?industry_slug=$1&%{QUERY_STRING}
+
+#############################
+
+RewriteRule ^news$ news.php
+
+RewriteRule ^news/([^/.]*)?$ news_details.php?news_slug=$1&%{QUERY_STRING}
+
+#############################
+
+RewriteRule ^case-studies$ case_study.php
+
+RewriteRule ^case-study/([^/.]*)?$ case_study_details.php?caseStudy_slug=$1&%{QUERY_STRING}
+
+RewriteRule ^case-studies/category/([^/.]*)?/([^/.]*)?$ case_study_category.php?caseStudy_cat_slug=$1&%{QUERY_STRING}&caseStudy_cat_id=$2&%{QUERY_STRING}
+
+#############################
+
+RewriteRule ^career$ career.php
+
+RewriteRule ^career/career-form-apply$ career_form.php
+
+RewriteRule ^career-form/([^/.]*)?$ career_form.php?industry_slug=$1&%{QUERY_STRING}
+
+#############################
+
+RewriteRule ^/([^/.]*)?$ career_form.php?industry_slug=$1&%{QUERY_STRING}
+
+#############################
+
+
+#############################
+
+RewriteRule ^training-course/([^/.]*)?/([^/.]*)?/registration$ course_registration.php?course_slug=$1&%{QUERY_STRING}&course_id=$2&%{QUERY_STRING}
+
+
+#############################
+
+RewriteRule ^contact-us$ contact_us.php
+
+#############################
+
+</IfModule>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
