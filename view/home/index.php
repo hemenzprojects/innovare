@@ -24,23 +24,40 @@
 
                             <!-- Action -->
                             <div data-aos="fade-up text-center" data-aos-delay="2800" class="buttons">
-                                <div class="d-sm-inline-flex">
+                                <!-- <div class="d-sm-inline-flex">
                                     <a href="<?= $properties['baseurl']?>consulting-services" class="ml-sm-4 mt-4 btn outline-button">Consulting</a>
-                                </div>
+                                </div> -->
                                 <br>
                                 <div class="d-sm-inline-flex">
                                     <!-- <a href="<?= $properties['baseurl']?>consulting-services" class="ml-sm-4 mt-4 btn outline-button">CISOaaS</a> -->
-                                    <a href="<?= $properties['baseurl']?>cisoaas" class="ml-sm-4 mt-4 btn outline-button">CISOaaS</a>
+                                    <!-- <a href="<?= $properties['baseurl']?>cisoaas" class="ml-sm-4 mt-4 btn outline-button">CISOaaS</a> -->
                                 </div>
                                 <br>
-                                <div class="d-sm-inline-flex">
+                                <!-- <div class="d-sm-inline-flex">
                                     <a href="<?= $properties['baseurl']?>professional-training" class="ml-sm-4 mt-4 btn outline-button">Professional Training</a>
                                 </div>
                                 <br>
                                 <div class="d-sm-inline-flex">
                                     <a href="<?= $properties['baseurl']?>banking-as-a-service" class="ml-sm-4 mt-4 btn outline-button">Banking as a Service</a>
-                                </div>
+                                </div> -->
                             </div>
+                            
+                            <div class="row d-none d-sm-block mb-5 item widget-tags">
+                                    <div class="col-12 align-self-center">
+                                        <div class="badges">
+                                        <a href="<?= $properties['baseurl']?>cisoaas">  <span class="badge" > <span style="color:#fff">CISOaaS</span></span></a>
+                                        <a href="<?= $properties['baseurl']?>consulting-services" >   <span class="badge" > <span style="color:#fff">Consulting</span></span>
+                                        <a href="<?= $properties['baseurl']?>professional-training"> <span class="badge" > <span style="color:#fff">Professional Training </span></span></a>
+                                        <a href="<?= $properties['baseurl']?>banking-as-a-service">    <span class="badge" > <span style="color:#fff">Financial Services solution</span></span></a>
+                                            <span class="badge" > <span style="color:#fff">Cyber Assure</span></span>
+                                            <span class="badge" > <span style="color:#fff">IT Audit</span></span>
+                                            <span class="badge" > <span style="color:#fff">Data Analytics</span></span>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+
                         </div>
                     </div>
                 </div>

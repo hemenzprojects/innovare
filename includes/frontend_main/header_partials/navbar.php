@@ -68,9 +68,9 @@
                     <!-- Navbar Items -->
                     <ul class="navbar-nav items">
 
-                       <!--  <li class="nav-item dropdown">
+                        <li class="nav-item dropdown">
                             <a href="<?= $properties['baseurl']?>home" class="nav-link">Home </a>
-                        </li> -->
+                        </li>
 
                         <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>about" class="nav-link">About us<i class="icon-arrow-down"></i></a>
@@ -85,6 +85,22 @@
                            
                         </li>
 
+                        <li class="nav-item dropdown">
+                            <a href="<?php echo $properties['baseurl']?>about" class="nav-link"> Services<i class="icon-arrow-down"></i></a>
+                            <ul class="dropdown-menu"> 
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>consulting-services" class="nav-link">Consulting</a></li>
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>cisoaas" class="nav-link">CISOaaS</a></li>
+                                <li class="nav-item"> <a href="<?php echo $properties['baseurl']?>professional-training" class="nav-link">Professional Training</a></li>
+                                <li class="nav-item"> <a href="<?php echo $properties['baseurl']?>banking-as-a-service" class="nav-link">Financial Services solution</a></li>
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>#" class="nav-link">Cyber Assure </a></li>
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>#" class="nav-link"> IT Audit  </a></li>
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>#" class="nav-link"> Data Analytics  </a></li>
+
+
+                                <!-- <li class="nav-item"><a href="#services" class="nav-link">What We Do</a></li> -->
+                            </ul>
+                           
+                        </li>
                         <!-- <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>services" class="nav-link">W<i class="icon-arrow-down"></i></a>
                             <ul class="dropdown-menu">
@@ -165,21 +181,21 @@
                             </ul>
                         </li>
  -->
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>consulting-services" class="nav-link">Consulting</a>
-                        </li>
+                        </li> -->
 
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>cisoaas" class="nav-link">CISOaaS</a>
-                        </li>
+                        </li> -->
 
                         <li class="nav-item dropdown">
-                            <a href="<?php echo $properties['baseurl']?>professional-training" class="nav-link">Professional Training</a>
+                            <!-- <a href="<?php echo $properties['baseurl']?>professional-training" class="nav-link">Professional Training</a> -->
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>banking-as-a-service" class="nav-link">Banking as a Service</a>
-                        </li>
+                        </li> -->
 
                        <!--  <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>industries" class="nav-link">Industries</a>
@@ -193,9 +209,11 @@
                             <a href="<?php echo $properties['baseurl']?>case-study" class="nav-link">Case Study</a>
                         </li> -->
                          <li class="nav-item dropdown">
+                            <a href="<?php echo $properties['baseurl']?>#" class="nav-link">Media</a>
+                        </li> 
+                        <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>career" class="nav-link">Career</a>
                         </li> 
-
                         <!-- <li class="nav-item dropdown">
                             <a href="javascript:void(0)" class="nav-link">Special Pages <i class="icon-arrow-down"></i></a>
                             <ul class="dropdown-menu">

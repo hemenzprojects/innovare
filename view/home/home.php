@@ -1,7 +1,7 @@
         <title><?php echo $website_details[0]->title?> || Home</title>
         
         <!-- Hero -->
-        <section id="slider" class="hero p-0 odd">
+        <!-- <section id="slider" class="hero p-0 odd">
             <div class="swiper-container full-slider animation slider-h-100 slider-h-auto">
                 <div class="swiper-wrapper">
 
@@ -16,21 +16,19 @@
 
                         <div class="swiper-slide slide-center">
 
-                            <!-- Media -->
                             <img src="<?php echo $slider_info->image_url ?>" alt="Full Image" class="full-image" data-mask="40">  
 
                             <div class="slide-content row">
                                 <div class="col-12 d-flex justify-content-start justify-content-md-left inner">
                                     <div class="center text-left text-md-left">
 
-                                        <!-- Content -->
                                         <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text" style="text-transform: unset;font-weight: 100"><?php echo $slider_info->header_text ?></h2>
                                         <?php if (!empty($slider_info->sub_header_text)): ?>
                                             <p data-aos="zoom-in" data-aos-delay="2400" class="description"> <?php echo $slider_info->sub_header_text ?></p>
                                         <?php endif ?>
                                         
                                        
-                                        <!-- Action -->
+                                      
                                         <div data-aos="fade-up" data-aos-delay="1200" class="buttons">
                                             <div class="d-sm-inline-flex">
                                                 <?php if (!empty($slider_info->btn_1_text)): ?>
@@ -53,8 +51,93 @@
 
                 <div class="swiper-pagination"></div>
             </div>
-        </section>
+        </section> -->
+        <section id="slider" class="hero p-0 odd">
+            <div class="swiper-container full-slider animation slider-h-100 slider-h-auto swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-wrapper" style="transform: translate3d(-2526px, 0px, 0px); transition-duration: 0ms;">
 
+                    <!-- Item 1 -->
+                    <div class="swiper-slide slide-center" style="width: 1263px;">
+
+                        <!-- Media -->
+                        <img src="<?php echo $properties['staticurl']?>assets/images/other/knowledge-transfer.jpg" alt="Full Image" class="full-image" data-mask="40">
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex justify-content-start inner">
+                                <div class="left text-left init">
+
+                                    <!-- Content -->
+                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text aos-init aos-animate">Welcome to Innovare</h2>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description aos-init aos-animate">we are a leading information technology advisory, knowledge & skills transfer and talent management and event management company in the country. </p>
+
+                                    <!-- Action -->
+                                    <div data-aos="fade-up" data-aos-delay="1200" class="buttons aos-init aos-animate">
+                                        <div class="d-sm-inline-flex">
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
+                                            <a href="#video" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2 -->
+                    <div class="swiper-slide slide-center swiper-slide-prev" style="width: 1263px;">
+
+                        <!-- Media -->
+                        <img src="assets/images/bg-2.jpg" alt="Full Image" class="full-image" data-mask="40">  
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
+                                <div class="center text-left text-md-center">
+
+                                    <!-- Content -->
+                                    <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text aos-init aos-animate">Financial Risk</h2>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description mr-auto ml-auto aos-init aos-animate">The right outcomes depend on continuous rigor in governance, models, and processes across the finance function.</p>
+                                   
+                                    <!-- Action -->
+                                    <div data-aos="fade-up" data-aos-delay="1200" class="buttons aos-init aos-animate">
+                                        <div class="d-sm-inline-flex">
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
+                                            <a href="#video" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3 -->
+                    <div class="swiper-slide slide-center swiper-slide-active" style="width: 1263px;">
+
+                        <!-- Media -->
+                        <img src="assets/images/bg-3.jpg" alt="Full Image" class="full-image" data-mask="40">     
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex justify-content-start justify-content-md-end inner">
+                                <div class="right text-left init">
+
+                                    <!-- Content -->
+                                    <h1 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text aos-init aos-animate">Audit &amp; Assurance</h1>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description aos-init aos-animate">Our focus is to map the technologies to solve the business transformation, offering services.</p>
+
+                                    <!-- Action -->
+                                    <div data-aos="fade-up" data-aos-delay="1200" class="buttons aos-init aos-animate">
+                                        <div class="d-sm-inline-flex">
+                                            <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
+                                            <a href="#video" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets" style=""><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </section>
         <!-- Services -->
         <section id="services" class="section-3 odd offers featured">
             <div class="container full-grid" style="padding: 0 50px;">
