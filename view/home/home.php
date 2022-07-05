@@ -173,7 +173,7 @@
                     <div class="col-12 col-md-6 col-lg-4 item">
                         <div class="card">
                             <img src="<?php echo $properties['staticurl']?>assets/images/other/traning.jpg">
-                            <!-- <i class="icon icon-chart"></i> -->
+                            <!-- <i class="icon icon-cha></i> -->
                             <h4 class="" style="line-height: 2rem">Thought Leadership</h4>
                             <p class="" style="margin-bottom: 10px;">We are the knowledge & skills transfer arm, committed to providing the most effective, high-quality education for working professionals and managers.</p>
                             <a href="<?php echo $properties['baseurl']?>thought-leadership"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
