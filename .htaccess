@@ -122,6 +122,9 @@ RewriteRule ^training-course/([^/.]*)?/([^/.]*)?/registration$ course_registrati
 
 RewriteRule ^contact-us$ contact_us.php
 
+RewriteRule ^singlepost$ singlepost.php
+
+
 #############################
 
 </IfModule>

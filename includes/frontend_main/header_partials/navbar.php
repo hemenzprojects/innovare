@@ -86,7 +86,7 @@
                         </li>
 
                         <li class="nav-item dropdown">
-                            <a href="<?php echo $properties['baseurl']?>about" class="nav-link"> Services<i class="icon-arrow-down"></i></a>
+                            <a href="<?php echo $properties['baseurl']?>#" class="nav-link"> Services<i class="icon-arrow-down"></i></a>
                             <ul class="dropdown-menu"> 
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>consulting-services" class="nav-link">Consulting</a></li>
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>cisoaas" class="nav-link">CISOaaS</a></li>
@@ -208,9 +208,13 @@
                         <!-- <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>case-study" class="nav-link">Case Study</a>
                         </li> -->
-                         <li class="nav-item dropdown">
-                            <a href="<?php echo $properties['baseurl']?>#" class="nav-link">Media</a>
-                        </li> 
+                        <li class="nav-item dropdown">
+                            <a href="<?php echo $properties['baseurl']?>about" class="nav-link"> Media<i class="icon-arrow-down"></i></a>
+                            <ul class="dropdown-menu"> 
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>singlepost" class="nav-link">Upcoming Event</a></li>
+                            </ul>
+                           
+                        </li>
                         <li class="nav-item dropdown">
                             <a href="<?php echo $properties['baseurl']?>career" class="nav-link">Career</a>
                         </li> 

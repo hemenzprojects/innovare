@@ -60,7 +60,7 @@
                     <div class="swiper-slide slide-center" style="width: 1263px;">
 
                         <!-- Media -->
-                        <img src="<?php echo $properties['staticurl']?>assets/images/other/knowledge-transfer.jpg" alt="Full Image" class="full-image" data-mask="40">
+                        <img src="<?php echo $properties['staticurl']?>assets/images/11.jpg" alt="Full Image" class="full-image" data-mask="40">
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start inner">
@@ -86,7 +86,7 @@
                     <div class="swiper-slide slide-center swiper-slide-prev" style="width: 1263px;">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-2.jpg" alt="Full Image" class="full-image" data-mask="40">  
+                        <img src="<?php echo $properties['staticurl']?>assets/images/career_2.jpg" alt="Full Image" class="full-image" data-mask="40">  
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start justify-content-md-center inner">
@@ -112,7 +112,7 @@
                     <div class="swiper-slide slide-center swiper-slide-active" style="width: 1263px;">
 
                         <!-- Media -->
-                        <img src="assets/images/bg-3.jpg" alt="Full Image" class="full-image" data-mask="40">     
+                        <img src="<?php echo $properties['staticurl']?>assets/images/banners/banner-18.jpg" alt="Full Image" class="full-image" data-mask="40">     
 
                         <div class="slide-content row">
                             <div class="col-12 d-flex justify-content-start justify-content-md-end inner">

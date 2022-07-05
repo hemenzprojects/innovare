@@ -1,37 +1,51 @@
 <title><?php echo $website_details[0]->title?> || What we do || CISOaaS</title>
 
 <!-- Hero -->
-    <section id="slider" class="hero p-0 odd featured">
-        <div class="swiper-container no-slider animation slider-h-50 slider-h-auto">
-            <div class="swiper-wrapper">
 
-                <!-- Item 1 -->
-                <div class="swiper-slide slide-center">
+    <section id="slider" class="hero p-0 odd">
+            <div class="swiper-container no-slider animation slider-h-100 slider-h-auto swiper-container-initialized swiper-container-horizontal">
+                <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
 
-                    <!-- Media -->
-                    <!-- <img src="<?php echo $properties['staticurl']?>assets/images/banners/banner-14.jpg" alt="Who we are" class="full-image" data-mask="70"> -->
-                    <img src="<?php echo $banner[0]->image_url; ?>" alt="Who we are" class="full-image" data-mask="70">
-                    <div class="slide-content row text-center">
-                        <div class="col-12 mx-auto inner">
-                            <!-- Content -->
-                            <nav data-aos="zoom-out-up" data-aos-delay="800" aria-label="breadcrumb">
+                    <!-- Item 1 -->
+                    <div class="swiper-slide slide-center swiper-slide-active" style="width: 1263px;">
+
+                        <!-- Media -->
+                        <img src="<?php echo $properties['staticurl']?>assets/images/9.jpg" alt="Full Image" class="full-image" data-mask="50">    
+
+                        <div class="slide-content row">
+                            <div class="col-12 d-flex justify-content-start inner">
+                            <div class="left text-left init">
+
+                        <!-- Content -->
+                        <h1 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text aos-init aos-animate">
+                            <!-- <span class="pre-title m-0"></span> -->
+                            <nav data-aos="" data-aos-delay="" aria-label="" style="float: left">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="<?php echo $properties['baseurl']; ?>">Home</a></li>
                                     <li class="breadcrumb-item" aria-current="page"> <a href="javascript:void(0)">What-we-do</a></li>
                                     <li class="breadcrumb-item " aria-current="page"><a>CISOaaS</a></li>
                                     <!-- <li class="breadcrumb-item active" aria-current="page">Partners</li> -->
                                 </ol>
-                            </nav>
-                            <h1 class="mb-0 title effect-static-text">CISOaaS</h1>
+                            </nav><br>
+                            CISOaaS <span class="featured"><span></span></span>
+                        </h1>
+                        <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger aos-init aos-animate"> Knowledge | Technology | services</p>
+
+                        <!-- Action -->
+                        <div data-aos="fade-up" data-aos-delay="2800" class="buttons aos-init aos-animate">
+                            <div class="d-sm-inline-flex">
+                                <a href="#contact" class="smooth-anchor mt-4 btn primary-button">GET IN TOUCH</a>
+                                <a href="#about" class="smooth-anchor ml-sm-4 mt-4 btn outline-button">READ MORE</a>
+                            </div>
+                        </div>
+                        </div>
+                            </div>
                         </div>
                     </div>
+
                 </div>
-
-            </div>
-        </div>
-    </section>
-
-
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </section>
 <!-- BaaS intro -->
     <section id="about-2" class="section-3 highlights team image-right odd">
         <div class="container  full-grid" style="padding: 0 50px;">
