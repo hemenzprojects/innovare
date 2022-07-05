@@ -4,7 +4,7 @@ username=root
 password=
 db_name=innovare_db
 
-baseurl=http://localhost/innovar/
+baseurl=http://localhost/innovare/
 routesurl=http://localhost/innovare//routes/
 staticurl=http://localhost/innovare//static/
 imageurl=http://localhost/innovare//static/assets/images/
