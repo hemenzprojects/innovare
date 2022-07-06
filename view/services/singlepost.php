@@ -203,8 +203,8 @@
                                 <div class="badges">
                                     <span class="badge"><a href="#">Consulting</a></span>
                                     <span class="badge"><a href="#">Audit</a></span>
-                                    <span class="badge"><a href="#">Assurance</a></span>
-                                    <span class="badge"><a href="#">Advisory</a></span>
+                                    <span class="badge"><a href="#">CISO</a></span>
+                                    <span class="badge"><a href="#">CISA</a></span>
                                 </div>
                             </div>
                         </div>
