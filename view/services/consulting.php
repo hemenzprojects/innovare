@@ -190,7 +190,7 @@
                         
                         <!--  -->
                        <!--  <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-cog"></i>
+                         
                         </div>
                         <div class="col-md-10">
                             <h4>CISOaaS</h4>
