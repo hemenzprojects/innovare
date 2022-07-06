@@ -180,20 +180,17 @@
                                 <h4 class="title">OUR COURSES</h4>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">Technology</a>
-                                        <span class="badge circle">23</span>
+                                        <a href="#">CISA</a>
+                                        <!-- <span class="badge circle">23</span> -->
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">Education</a>
-                                        <span class="badge circle">41</span>
+                                        <a href="#">CISO</a>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">Industry</a>
-                                        <span class="badge circle">26</span>
+                                        <a href="#">CISM</a>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">Development</a>
-                                        <span class="badge circle">75</span>
+                                        <a href="#">CCISO</a>
                                     </li>
                                 </ul>
                             </div>
