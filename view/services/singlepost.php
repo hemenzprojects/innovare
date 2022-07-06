@@ -69,7 +69,7 @@
                                 <p>So as organizations begin and continue to invest in building up their Cybersecurity programs and activities, Board members are required to provide effective Governance and leadership towards ensuring that their respective organizations is reducing risk to acceptable levels. They also need to know how to ensure that their investment into Cybersecurity is going to bring business value. </p>
                            
                                 <div class="mb-5 gallery">
-                                    <a href="https://vimeo.com/222990241" class="square-image d-flex justify-content-center align-items-center">
+                                    <a href="https://www.youtube.com/watch?v=nBf2JBG-9SU&ab_channel=InnovareGh" class="square-image d-flex justify-content-center align-items-center">
                                         <i class="icon bigger fas fa-play clone"></i>
                                         <i class="icon bigger fas fa-play"></i>
                                         <img src="<?php echo $properties['staticurl']?>assets/images/aboutinnovare.png" class="fit-image" alt="Introduction Video">
