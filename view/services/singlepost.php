@@ -180,17 +180,20 @@
                                 <h4 class="title">OUR COURSES</h4>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">CISA</a>
+                                        <a href="#">INFOSEC MANAGEMENT</a>
                                         <!-- <span class="badge circle">23</span> -->
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">CISO</a>
+                                        <a href="#">CYBERSECURITY ASSURANCE</a>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">CISM</a>
+                                        <a href="#">APPLICATION SECURITY</a>
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                                        <a href="#">CCISO</a>
+                                        <a href="#">SOC MANAGEMENT</a>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        <a href="#">ITIL FOUNDATION V4</a>
                                     </li>
                                 </ul>
                             </div>
