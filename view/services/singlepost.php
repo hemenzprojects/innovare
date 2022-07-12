@@ -20,7 +20,7 @@
                                     <div class="row post-meta mx-auto ml-lg-0">
                                 <div class="col-12 align-self-center">
                                     <span class="date"><i class="fas fa-user"></i><span style="color: #fff;">Facilator: C.K BRUCE</span></span>
-                                    <span class="author"><i class="fas fa-calendar-alt"></i><span style="color: #fff;">15th - 18th June</span></span>
+                                    <span class="author"><i class="fas fa-calendar-alt"></i><span style="color: #fff;">17th - 19th August</span></span>
                                     <span class="comment"><i class="fas fa-map-marker-alt mr-2"></i><span style="color: #fff;">The H Hotel, Dubai, UAE.</span> </span>    
                                 </div>
                             </div>
@@ -218,3 +218,4 @@
                 </div>
             </div>
         </section>
+
