@@ -56,8 +56,8 @@
                             <!-- Meta -->
                             <div class="row post-meta mx-auto ml-lg-0">
                                 <div class="col-12 align-self-center">
-                                    <span class="date"><i class="fas fa-user"></i>Facilator: C.K BRUCE<</span>
-                                    <span class="author"><i class="fas fa-calendar-alt"></i>15th - 18th June</span>
+                                    <span class="date"><i class="fas fa-user"></i>Facilator: C.K BRUCE</span>
+                                    <span class="author"><i class="fas fa-calendar-alt"></i>17th - 19th August</span>
                                     <span class="comment"><i class="fas fa-comment-dots"></i>The H Hotel, Dubai, UAE.</span>    
                                 </div>
                             </div>
