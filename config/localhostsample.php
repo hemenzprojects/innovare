@@ -47,3 +47,53 @@ upload_calender=static/app-assets/documents/calender/
 
 # PBFPubKey=FLWPUBK_TEST-3ec57ff830445d7126f823dc4563059f-X
 # SecKey=FLWSECK_TEST-3a3cc45a782a004abb9a19125eadc1e5-X
+
+
+
+[database]
+hostname=localhost
+username=innovare_user
+password=7692@bruce
+db_name=innovare_db
+
+baseurl=https://innovarelearning.com/
+routesurl=https://innovarelearning.com//routes/
+staticurl=https://innovarelearning.com//static/
+imageurl=https://innovarelearning.com//static/assets/images/
+title='Innovare Learning'
+currency='GH&#162; '
+contact='(+233) 302 942 878/ (+233) 501 290 759/ (+233) 501 285 277'
+address='Accra Digital Centre, Adjacent State Housing Company,Ring Road West, Accra'
+description='Providing Value-Driven Information Security Service And Solution'
+email='myinfo@innovarelearning.com'
+upload_dir=static/assets/images/
+
+# PBFPubKey=FLWPUBK_TEST-3ec57ff830445d7126f823dc4563059f-X
+# SecKey=FLWSECK_TEST-3a3cc45a782a004abb9a19125eadc1e5-X
+
+
+[database]
+hostname=localhost
+username=innovare_user
+password=7692@bruce
+db_name=innovare_db
+
+[config]
+baseurl=https://innovarelearning.com/innovare/
+routesurl=https://innovarelearning.com/routes/innovare/
+staticurl=https://innovarelearning.com/innovare/static/
+imageurl=https://innovarelearning.com/innovare/static/app-assets/images/
+documenturl=https://innovarelearning.com/innovare/static/app-assets/documents/
+# uploa=https://localhost/innovare/static/listing_images/
+title='Innovare Learning'
+currency='GH&#162; '
+contact='(+233) 302 942 878/ (+233) 501 290 759/ (+233) 501 285 277'
+address='Accra Digital Centre, Adjacent State Housing Company,Ring Road West, Accra'
+description='Providing Value-Driven Information Security Service And Solution'
+email='myinfo@innovarelearning.com'
+upload_dir=static/app-assets/images/
+upload_dir_2=static/app-assets/documents/
+upload_calender=static/app-assets/documents/calender/
+
+# PBFPubKey=FLWPUBK_TEST-3ec57ff830445d7126f823dc4563059f-X
+# SecKey=FLWSECK_TEST-3a3cc45a782a004abb9a19125eadc1e5-X
