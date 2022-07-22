@@ -1,0 +1,264 @@
+RewriteEngine On 
+RewriteCond %{HTTPS} off 
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+#Prevent directory listings
+Options -Indexes
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+ # Images
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # Video
+  ExpiresByType video/webm "access plus 1 year"
+  ExpiresByType video/mp4 "access plus 1 year"
+  ExpiresByType video/mpeg "access plus 1 year"
+
+  # Fonts
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+
+  # CSS, JavaScript
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType text/javascript "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+
+  # Others
+  ExpiresByType application/pdf "access plus 1 year"
+  ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
+</IfModule>
+
+
+RewriteOptions inherit
+options -multiviews
+<IfModule mod_rewrite.c>
+RewriteRule ^login$ login.php
+RewriteRule ^index$ index.php
+RewriteRule ^faqs$ faqs.php
+RewriteRule ^password_recovery$ password_recovery.php
+RewriteRule ^request_account$ request_account.php
+RewriteRule ^change_password$ change_pass.php
+RewriteRule ^profile$ profile.php
+RewriteRule ^add-admin$ add_admin.php
+RewriteRule ^view-admin$ view_admin.php
+RewriteRule ^edit-admin$ edit_admin.php
+RewriteRule ^logout$ logout.php
+RewriteRule ^view-courses$ view_courses.php
+RewriteRule ^view-archived-courses$ view_archived_courses.php
+RewriteRule ^view-archived-events$ view_archived_events.php
+RewriteRule ^add-course$ add_course.php
+RewriteRule ^course-categories$ course_categories.php
+RewriteRule ^course-calender$ course_calender.php
+RewriteRule ^event-categories$ event_categories.php
+RewriteRule ^add-event$ add_event.php
+RewriteRule ^view-events$ view_events.php
+
+###########################
+
+RewriteRule ^edit-admin/([^/.]*)?$ edit_admin.php?admin_id=$1&%{QUERY_STRING}
+
+#############################
+
+RewriteRule ^view-course-details/([^/.]*)?$ view_course_details.php?course_id=$1&%{QUERY_STRING}.php
+RewriteRule ^view-course-documents/([^/.]*)?$ view_course_documents.php?course_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-course-details/([^/.]*)?$ edit_course_details.php?course_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-course-category/([^/.]*)?$ edit_course_category.php?coruse_cat_id=$1&%{QUERY_STRING}
+RewriteRule ^add-course-image/([^/.]*)?$ add_course_image.php?course_id=$1&%{QUERY_STRING}
+
+###############################
+
+RewriteRule ^add-event-image/([^/.]*)?$ add_event_image.php?event_id=$1&%{QUERY_STRING}
+RewriteRule ^view-event-details/([^/.]*)?$ view_event_details.php?event_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-event-details/([^/.]*)?$ edit_event_details.php?event_id=$1&%{QUERY_STRING}
+RewriteRule ^view-event-documents/([^/.]*)?$ view_event_documents.php?event_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-event-gallery/([^/.]*)?$ edit_event_gallery.php?event_id=$1&%{QUERY_STRING}
+
+
+#################################
+
+RewriteRule ^add-services$ add_services.php
+RewriteRule ^view-services$ view_services.php
+RewriteRule ^view-archived-services$ view_archived_services.php
+RewriteRule ^view-service-details/([^/.]*)?$ view_service_details.php?service_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-service-details/([^/.]*)?$ edit_service_details.php?service_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^add-consulting-service$ add_consulting.php
+RewriteRule ^view-consulting-services$ view_consulting.php
+RewriteRule ^view-archived-consulting-services$ view_archived_consulting.php
+RewriteRule ^view-consulting-service-details/([^/.]*)?$ view_consulting_details.php?consulting_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-consulting-service-details/([^/.]*)?$ edit_consulting_details.php?consulting_id=$1&%{QUERY_STRING}
+
+#################################
+
+
+RewriteRule ^add-pages$ add_pages.php
+RewriteRule ^view-pages$ view_pages.php
+RewriteRule ^view-archived-pages$ view_archived_pages.php
+RewriteRule ^view-page-details/([^/.]*)?$ view_page_details.php?page_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-page-details/([^/.]*)?$ edit_page_details.php?page_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^add-knowledge-transfer$ add_knowledge_transfer.php
+RewriteRule ^view-knowledge-transfer$ view_knowledge_transfer.php
+RewriteRule ^view-archived-knowledge-transfer$ view_archived_knowledge_transfer.php
+RewriteRule ^view-knowledge-transfer-details/([^/.]*)?$ view_knowledge_transfer_details.php?knowledge_transfer_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-knowledge-transfer-details/([^/.]*)?$ edit_knowledge_transfer_details.php?knowledge_transfer_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^add-career-submission$ add_career.php
+RewriteRule ^view-career-submission$ view_career.php
+RewriteRule ^view-archived-career-submission$ view_archived_career.php
+RewriteRule ^view-career-submission-details/([^/.]*)?$ view_career_details.php?career_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-career-submission-details/([^/.]*)?$ edit_career_details.php?career_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^add-thought-leadership$ add_thought_leadership.php
+RewriteRule ^view-thought-leadership$ view_thought_leadership.php
+RewriteRule ^view-archived-thought-leadership$ view_archived_thought_leadership.php
+RewriteRule ^view-thought-leadership-details/([^/.]*)?$ view_thought_leadership_details.php?leadership_id=$1&%{QUERY_STRING}
+RewriteRule ^view-thought-leadership-videos/([^/.]*)?$ view_thought_leadership_videos.php?leadership_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-thought-leadership-details/([^/.]*)?$ edit_thought_leadership_details.php?leadership_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^add-team-member$ add_team.php
+RewriteRule ^view-management$ view_management.php
+RewriteRule ^view-staff$ view_staff.php
+RewriteRule ^view-instructor$ view_instructor.php
+RewriteRule ^view-team-member-details/([^/.]*)?$ view_team_details.php?team_id=$1&%{QUERY_STRING}
+RewriteRule ^edit-team-member-details/([^/.]*)?$ edit_team_details.php?team_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^slider-management$ add_slider.php
+RewriteRule ^edit-slider-details/([^/.]*)?$ edit_slider_details.php?slider_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^banner-management$ banner_management.php
+
+#################################
+
+RewriteRule ^website-details$ website_details.php
+
+#################################
+
+RewriteRule ^contact-information$ contact_info.php
+
+#################################
+
+RewriteRule ^media$ media.php
+
+#################################
+
+RewriteRule ^news-categories$ news_categories.php
+
+RewriteRule ^add-news$ add_news.php
+
+RewriteRule ^view-news$ view_news.php
+
+RewriteRule ^view-archived-news$ view_archived_news.php
+
+RewriteRule ^edit-news-details/([^/.]*)?$ edit_news_details.php?news_id=$1&%{QUERY_STRING}
+
+RewriteRule ^view-news-details/([^/.]*)?$ view_news_details.php?news_id=$1&%{QUERY_STRING}
+
+RewriteRule ^view-news-gallery/([^/.]*)?$ view_news_gallery.php?news_id=$1&%{QUERY_STRING}
+
+
+#################################
+
+RewriteRule ^add-industry$ add_industries.php
+
+RewriteRule ^view-industries$ view_industries.php
+
+RewriteRule ^view-archived-industries$ view_archived_industries.php
+
+RewriteRule ^view-industry-details/([^/.]*)?$ view_industry_details.php?industry_id=$1&%{QUERY_STRING}
+
+RewriteRule ^edit-industry-details/([^/.]*)/?$ edit_industry_details.php?industry_id=$1&%{QUERY_STRING}
+
+
+#################################
+
+RewriteRule ^case-study-categories$ case_study_categories.php
+
+RewriteRule ^add-case-study$ add_case_study.php
+
+RewriteRule ^add-case-study-image/([^/.]*)?$ add_case_study_image.php?caseStudy_id=$1&%{QUERY_STRING}
+
+RewriteRule ^view-case-studies$ view_case_studies.php
+
+RewriteRule ^view-archived-case-studies$ view_archived_case_studies.php
+
+RewriteRule ^view-case-study-details/([^/.]*)?$ view_case_study_details.php?caseStudy_id=$1&%{QUERY_STRING}
+
+RewriteRule ^edit-case-study-details/([^/.]*)/?$ edit_case_study_details.php?caseStudy_id=$1&%{QUERY_STRING}
+
+RewriteRule ^edit-case-study-documents/([^/.]*)?$ edit_case_study_documents.php?caseStudy_id=$1&%{QUERY_STRING}
+
+RewriteRule ^edit-case-study-gallery/([^/.]*)?$ edit_case_study_gallery.php?caseStudy_id=$1&%{QUERY_STRING}
+
+
+###################################
+
+RewriteRule ^add-partners$ add_partners.php
+
+RewriteRule ^view-partners$ view_partners.php
+
+RewriteRule ^view-partners-details/([^/.]*)?$ view_partners_details.php?partners_id=$1&%{QUERY_STRING}
+
+RewriteRule ^edit-partners-details/([^/.]*)/?$ edit_partners_details.php?partners_id=$1&%{QUERY_STRING}
+
+#################################
+
+RewriteRule ^newsletter-subscription$ view_subscription.php
+
+
+#################################
+
+</IfModule>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
