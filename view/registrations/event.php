@@ -1,3 +1,5 @@
+
+
 <title><?php echo $website_details[0]->title?> || Get in Touch </title>
 
 <!-- Hero -->
@@ -47,7 +49,7 @@
                     </div>
                     <div class="row">
                         <div class="col-12 p-0">
-                            <form action="" id="contact_form" class="nexgen-simple-form">
+                              <form action="./view/registrations/mail.php"  class="nexgen-simple-form" method="POST">
                                 <!-- <input type="hidden" name="section" value="nexgen_form"> -->
 
                                 <input type="hidden" name="reCAPTCHA" data-key="6Lf-NwEVAAAAAPo_wwOYxFW18D9_EKvwxJxeyUx7">
