@@ -15,7 +15,11 @@
 
                             <!-- Content -->
                            
-                            <h2 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">Welcome To <span class="featured1" style="display: unset;"><span><img src="<?php echo $website_details[0]->logo_url?>" style="width: 30%;padding-bottom: 23px;"></span></span> </h2>
+                            <a href="<?= $properties['baseurl']?>home">
+                           <h2 data-aos="zoom-in" data-aos-delay="2000" class="title effect-static-text">Welcome To 
+                                <span class="featured1" style="display: unset;"><span><img src="<?php echo $website_details[0]->logo_url?>" style="width: 30%;padding-bottom: 23px;"></span></span> 
+                            </h2>
+                           </a>
                             <!-- <p data-aos="zoom-in" data-aos-delay="2400" class="description mr-auto ml-auto">Join Innovare’s  Training  at a discount</p> -->
 
                             <!--  <div class="text-center" >

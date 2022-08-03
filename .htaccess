@@ -124,7 +124,7 @@ RewriteRule ^contact-us$ contact_us.php
 
 RewriteRule ^singlepost$ singlepost.php
 RewriteRule ^register$ register.php
-
+RewriteRule ^itaudit$ itaudit.php
 
 #############################
 

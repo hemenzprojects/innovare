@@ -93,7 +93,7 @@
                                 <li class="nav-item"> <a href="<?php echo $properties['baseurl']?>professional-training" class="nav-link">Professional Training</a></li>
                                 <li class="nav-item"> <a href="<?php echo $properties['baseurl']?>banking-as-a-service" class="nav-link">Financial Services solution</a></li>
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>#" class="nav-link">Cyber Assure </a></li>
-                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>#" class="nav-link"> IT Audit  </a></li>
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>itaudit" class="nav-link"> IT Audit  </a></li>
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>#" class="nav-link"> Data Analytics  </a></li>
 
 
