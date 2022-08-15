@@ -4,8 +4,7 @@
 	$innovare = new INNOVARE();
 
 
-
-// -- GET WEBSITE CONTACT DETAILS -- //
+    // -- GET WEBSITE CONTACT DETAILS -- //
 
 	$contact_details = json_encode( $innovare->getContactDetails() );
 	$contact_details = json_decode($contact_details);
@@ -14,7 +13,7 @@
 
 
 
-// -- GET WEBSITE  DETAILS -- //
+    // -- GET WEBSITE  DETAILS -- //
 
 	$website_details = json_encode( $innovare->getWebsiteDetails() );
 	$website_details = json_decode($website_details);
@@ -31,7 +30,7 @@
 // -- Get Calender -- //
 
 	$training_calender =  json_encode($innovare->getCalender());
-	$training_calender = json_decode($training_calender);
+    $training_calender = json_decode($training_calender);
 
 
 

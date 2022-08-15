@@ -22,7 +22,7 @@
 
                                     <!-- Content -->
                                     <h2 data-aos="zoom-in" data-aos-delay="400" class="title effect-static-text aos-init aos-animate">IT <span class="featured"><span>AUDIT</span></span></h2>
-                                    <p data-aos="zoom-in" data-aos-delay="800" class="description aos-init aos-animate">INNOVARE currently provides specialist internal auditing services to clients through our various integrated business units</p>
+                                    <p data-aos="zoom-in" data-aos-delay="800" class="description aos-init aos-animate">INNOVARE provides specialized internal auditing services to clients through our various integrated business units</p>
 
                                     <!-- Action -->
                                     <div data-aos="fade-up" data-aos-delay="1200" class="buttons aos-init aos-animate">
@@ -50,8 +50,7 @@
                     <div class="col-12 col-lg-8 p-0 text">
                         <div class="row intro m-0">
                             <div class="col-12">
-                                <p>                                <span class="pre-title m-0">INNOVARE</span>
-                       currently provides specialist internal auditing services to clients through our various integrated business units namely:</p>
+                               
 
                                 <div class="title-icon">
 

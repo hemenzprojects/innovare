@@ -32,6 +32,7 @@
 
 
 <!-- Services -->
+<?php print_r($training_calender)?>
     <section id="servies" class=" offers testimonials">
         <div class="container full-grid">
             <div class="row text-center justify-content-center intro">
@@ -42,7 +43,7 @@
                 </div>
                 <div data-aos="fade-up align-self-center" class="buttons">
                     <div class="d-sm-inline-flex mt-2 text-md-center text-center">
-                        <a href="<?php echo $training_calender[0]->url?>" target="_blank" class=" mt-4 btn outline-button text-md-center text-center">Download  Training Calender</a>
+                        <a href="<?php echo $training_calender[0]->url?>" target="_blank" class=" mt-4 btn outline-button text-md-center text-center">Download Training Calender</a>
                     </div>
                 </div>
 
