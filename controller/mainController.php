@@ -30,7 +30,7 @@
 // -- Get Calender -- //
 
 	$training_calender =  json_encode($innovare->getCalender());
-    $training_calender = json_decode($training_calender);
+   return  $training_calender = json_decode($training_calender);
 
 
 
