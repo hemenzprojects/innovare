@@ -31,8 +31,8 @@
     </section>
 
 
-<!-- Services -->
-<?php print_r($training_calender)?>
+<!-- Servicess -->
+<?php print_r($training_calender)?>  
     <section id="servies" class=" offers testimonials">
         <div class="container full-grid">
             <div class="row text-center justify-content-center intro">
