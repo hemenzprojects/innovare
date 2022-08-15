@@ -32,7 +32,6 @@
 
 
 <!-- Servicess -->
-<?php var_dump($training_calender)?>  
 
     <section id="servies" class=" offers testimonials">
         <div class="container full-grid">
