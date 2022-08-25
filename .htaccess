@@ -67,6 +67,8 @@ RewriteRule ^professional-training$ knowledge_transfer.php
 RewriteRule ^knowledge-transfer$ knowledge_transfer_2.php
 
 RewriteRule ^cisoaas$ cisoaas.php
+RewriteRule ^cyber_assure$ cyber_assure.php
+
 
 RewriteRule ^banking-as-a-service$ baas.php
 
@@ -125,6 +127,9 @@ RewriteRule ^contact-us$ contact_us.php
 RewriteRule ^singlepost$ singlepost.php
 RewriteRule ^register$ register.php
 RewriteRule ^itaudit$ itaudit.php
+
+RewriteRule ^awards_recognition$ awards_recognition.php
+
 
 #############################
 

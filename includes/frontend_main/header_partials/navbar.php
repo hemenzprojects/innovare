@@ -80,6 +80,8 @@
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>about#services" class="nav-link">Services</a></li>
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>about#board" class="nav-link">Board Members</a></li>
                                 <li class="nav-item"><a href="<?php echo $properties['baseurl']?>about#management" class="nav-link">Management Team</a></li>
+                                <li class="nav-item"><a href="<?php echo $properties['baseurl']?>awards_recognition" class="nav-link">Awards & Recognition</a></li>
+
                                 <!-- <li class="nav-item"><a href="#services" class="nav-link">What We Do</a></li> -->
                             </ul>
                            

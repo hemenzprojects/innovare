@@ -41,10 +41,12 @@
                 </div>
                 <div class="row">
                     <div class="col-12 p-0 pr-md-5">
-                        <h4 class="">Innovare — Consulting | Knowledge Transfer | Services</h4>
-                        <p><b>Innovare</b> is a management consultancy company established to assist businesses innovate through technology adoption and IT optimisation.  Our offerings are based on some of industry best practices that create business opportunities, improve delivery and facilitate information sharing and knowledge creation, increase transparency, accountability and effectiveness. </p>
+                        <h4 class="">Innovare — Our business is Protecting your business.</h4>
+                        <p><b>Innovare</b>  is a leading information technology advisory, knowledge & skills transfer and talent management and event management company in the country. We deliver the technology-related insight - through training, retreats, seminars, breakfast series and conferences - necessary for our clients to make the right decisions, every day. From CTOs, CIOs and senior IT leaders in corporations and government agencies, to business leaders in high-tech and telecom enterprises and professional services firms, to technology investors, we are the valuable partner to clients in over 400 distinct organizations. Through the resources of Innovare, we work with every client to understand, analyze and interpret the key business processes within the context of their individual role and the organization as a whole. Innovare has a host of associate consultants who are partners in every sense and cover every critical area.</p>
+                          <p>Innovare has deep experience spanning over 15 years in developing high quality content and agendas for conferences. We are able to bring out the most pertinent and relevant topics that the target audience are most interested in.Innovare is dedicated to the advancement of best practices and strategies by business leaders. It has a special focus on global frameworks and methodologies. Our aim is to provide proven knowledge transfer services to organizations in developing countries by building on our consultants’ years of experience, professionalism and integrity. Thus, together with practitioners in various fields - both local and international - are collaborating to produce the various Conferences that we host. </p>
+                        </p>Innovare in the past has organized conferences like Social Media Summit, SecureGhanaCyberspace,  ICT for Government, CIO Summit and has also supported INFOTECH  as well as other events targeted at both the public  and the private sectors respectively </p>
 
-                        <p>Our aim is to provide proven assurance consultancy services to organisations by building on our consultants’ years of experience, professionalism and integrity.  We can tap into a large pool of experienced resource, which is a mixture of Ghanaians who know the local business environment very well and foreigners who will bring external experiences and expertise to support our engagements.</p>
+ 
                     </div>
                 </div>
             </div>
@@ -62,14 +64,15 @@
                             <a href="#"><i class="icon icon-eye"></i></a>
                             <div class="list-group-content">
                                 <h4>Vision</h4>
-                                <p> Our vision Is to be the leading brand of choice for information security services, consulting and training.</p>
+                                <p> We seek to be differentiated by thought leadership and innovation, and be the essential partner to   de-risk, transform and build capacity in the digital economy.</p>
                             </div>
                         </li>
                         <li class="list-group-item d-flex justify-content-center align-items-center">
                             <a href="#"><i class="icon icon-present"></i></a>
                             <div class="list-group-content">
-                                <h4>Values</h4>
-                                <p>We believe in trust in the places where we do business.</p>
+                                <h4>Core Value</h4>
+                                <p>Innovaré delivers deep expertise, objective insights, a tailored approach and unparalleled collaboration to help organizations face the future with confidence. Our consulting solutions span critical business problems in technology, business process, analytics, risk, compliance, transactions and internal audit.
+</p>
                             </div>
                         </li>
                     </ul>
@@ -85,7 +88,7 @@
 <section  class="section-1 highlights image-right featured" id="facts">
     <div class="container full-grid" >
         <div class="row">
-            <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text" style="padding-left: 50px;">
+            <div class="col-12 col-md-7  align-self-center text-center text-md-left text" style="padding-left: 50px;">
                 <div data-aos="fade-up"  class="row intro">
                     <div class="col-12 p-0">
                         <span class="pre-title m-auto m-md-0">SOME FACTS CONCERNING US</span>
@@ -108,7 +111,7 @@
                     </div>  
                 </div>
             </div>
-            <div class="col-12 col-md-6 p-0 image">
+            <div class="col-12 col-md-5 p-0 image">
                 <img src="<?php echo $properties['staticurl']?>assets/images/about_66.jpg" class="fit-image" alt="Fit Image">
             </div>
         </div>
@@ -371,7 +374,7 @@
 
             </div>
 
-            <<!-- div data-aos="fade-up" class="buttons aos-init aos-animate text-center">
+            <!-- div data-aos="fade-up" class="buttons aos-init aos-animate text-center">
                 <div class="d-sm-inline-flex mt-3 mb-md-0">
                     <a href="" class="smooth-anchor mx-auto mt-4 btn primary-button">View All</a>
                     <a href="<?php echo $properties['baseurl'] ?>team" style="padding-right: 50px !important;padding-left: 50px !important;" class="mx-auto  btn outline-button">View All</a>

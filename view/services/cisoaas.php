@@ -27,7 +27,7 @@
                                     <!-- <li class="breadcrumb-item active" aria-current="page">Partners</li> -->
                                 </ol>
                             </nav><br>
-                            CISOaaS <span class="featured"><span></span></span>
+                            CISOaaS 
                         </h1>
                         <p data-aos="zoom-in" data-aos-delay="2400" class="description bigger aos-init aos-animate"> Knowledge | Technology | services</p>
 
@@ -47,6 +47,86 @@
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
         </section>
 <!-- BaaS intro -->
+<section id="video" class="section-1 highlights image-center featured">
+        <div class="container full-grid" style="padding: 0 50px;">
+           <div class="row text-center intro">
+                <div class="col-12">
+                    <!-- <span class="pre-title">How it works in practice</span> -->
+                    <!-- <span class="pre-title">We do more for everyone</span> -->
+                        <h2 class="mb-0"> <span class="featured"><span> </span></span> Services <span class="featured"><span> </span></span> </h2>
+                </div>
+            </div>
+            <div class="row items">                             
+                <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-12 item">
+                    <div class="row">
+
+                        <!--  -->
+                        <div class="col-md-2" style="margin-top: 1.5rem;">
+                            <i class="mr-2 bigger icon fas fa-certificate"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Follow a robust methodology for running your information security program </h5>
+                            <p>As your CISO we will bring best practices and tested tactics that follow an accepted industry standard (ISO 27001, NIST, PCI DSS) for maintaining client security, ensuring strategic, result-driven decisions are made.</p>
+                            <!-- <p>Management System based on ISO 27001. Organizations that adopt ISO 27001 exhibit that they take cybersecurity seriously, which is a growing concern among clients.</p> -->
+                        </div>
+                        
+                        <!--  -->
+                        <div class="col-md-2" style="margin-top: 1.5rem;">
+                            <i class="mr-2 bigger icon fas fa-certificate"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Take ownership over maintaining your policies, procedures and standards for information/cyber security</h5>
+                            <p>As your CISO we will take the lead to manage your information security strategy, autonomously. They should be responsible for ensuring it’s efficient and appropriate for your business while routinely monitoring and reassessing to discover new ways to enhance your protection.</p>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-md-2" style="margin-top: 1.5rem;">
+                            <i class="mr-2 bigger icon fas fa-certificate"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Provide metrics and visibility of tracking</h5>
+                            <p>From the moment we come onboard, we will be setting up KPIs that will give you the visibility you need over the management of your environment. We will start monitoring areas you may not have been previously monitoring, and will begin to track time, progress, ROI and any and all achievements to improve your information security moving forward.</p>
+                        </div>   
+                    </div>
+                </div> 
+
+                <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-12 item">
+                    <div class="row">
+                        
+                        
+                        <!--  -->
+                        <div class="col-md-2" style="margin-top: 1.5rem;">
+                            <i class="mr-2 bigger icon fas fa-certificate"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5> Maintain and monitor a list of security controls</h5>
+                            <p>Security controls help to mitigate or reduce your risk, and can include administrative, technical and physical measures to protect your assets. As your CISO will have a clear grasp of all your threats and vulnerabilities and have an action-plan for how to address each risk.</p>
+                        </div>
+
+                        <!--  -->
+                        <div class="col-md-2" style="margin-top: 1.5rem;">
+                            <i class="mr-2 bigger icon fas fa-certificate"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Deliver executive-level reporting</h5>
+                            <p>As your CISO, we will offer reporting insights, not just in a spreadsheet to be filed away without analysis, but delivered in a way that your C-suite can understand. This reporting also guides strategic changes to better protect your business.</p>
+                        </div>
+                        
+                        <!--  -->
+                        <div class="col-md-2" style="margin-top: 1.5rem;">
+                            <i class="mr-2 bigger icon fas fa-certificate"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h5>Be a strategic advisor and executor</h5>
+                            <p>As your CISO, we will be monitoring the changing landscape of security and compliance as well as advising you on that impact to your company. Should you have a security incident, we will lead the execution of your incident response plan.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="about-2" class="section-3 highlights team image-right odd">
         <div class="container  full-grid" style="padding: 0 50px;">
             <div class="row row-eq-height ">
@@ -143,85 +223,6 @@
 
 
  <!-- 4th -->
-    <section id="video" class="section-1 highlights image-center featured">
-        <div class="container full-grid" style="padding: 0 50px;">
-           <div class="row text-center intro">
-                <div class="col-12">
-                    <!-- <span class="pre-title">How it works in practice</span> -->
-                    <!-- <span class="pre-title">We do more for everyone</span> -->
-                        <h2 class="mb-0"> <span class="featured"><span> </span></span> Services <span class="featured"><span> </span></span> </h2>
-                </div>
-            </div>
-            <div class="row items">                             
-                <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-12 item">
-                    <div class="row">
-
-                        <!--  -->
-                        <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-certificate"></i>
-                        </div>
-                        <div class="col-md-10">
-                            <h5>Follow a robust methodology for running your information security program </h5>
-                            <p>As your CISO we will bring best practices and tested tactics that follow an accepted industry standard (ISO 27001, NIST, PCI DSS) for maintaining client security, ensuring strategic, result-driven decisions are made.</p>
-                            <!-- <p>Management System based on ISO 27001. Organizations that adopt ISO 27001 exhibit that they take cybersecurity seriously, which is a growing concern among clients.</p> -->
-                        </div>
-                        
-                        <!--  -->
-                        <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-certificate"></i>
-                        </div>
-                        <div class="col-md-10">
-                            <h5>Take ownership over maintaining your policies, procedures and standards for information/cyber security</h5>
-                            <p>As your CISO we will take the lead to manage your information security strategy, autonomously. They should be responsible for ensuring it’s efficient and appropriate for your business while routinely monitoring and reassessing to discover new ways to enhance your protection.</p>
-                        </div>
-
-                        <!--  -->
-                        <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-certificate"></i>
-                        </div>
-                        <div class="col-md-10">
-                            <h5>Provide metrics and visibility of tracking</h5>
-                            <p>From the moment we come onboard, we will be setting up KPIs that will give you the visibility you need over the management of your environment. We will start monitoring areas you may not have been previously monitoring, and will begin to track time, progress, ROI and any and all achievements to improve your information security moving forward.</p>
-                        </div>   
-                    </div>
-                </div> 
-
-                <div data-aos="fade-up" class="col-12 col-md-6 p-0 pr-md-12 item">
-                    <div class="row">
-                        
-                        
-                        <!--  -->
-                        <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-certificate"></i>
-                        </div>
-                        <div class="col-md-10">
-                            <h5> Maintain and monitor a list of security controls</h5>
-                            <p>Security controls help to mitigate or reduce your risk, and can include administrative, technical and physical measures to protect your assets. As your CISO will have a clear grasp of all your threats and vulnerabilities and have an action-plan for how to address each risk.</p>
-                        </div>
-
-                        <!--  -->
-                        <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-certificate"></i>
-                        </div>
-                        <div class="col-md-10">
-                            <h5>Deliver executive-level reporting</h5>
-                            <p>As your CISO, we will offer reporting insights, not just in a spreadsheet to be filed away without analysis, but delivered in a way that your C-suite can understand. This reporting also guides strategic changes to better protect your business.</p>
-                        </div>
-                        
-                        <!--  -->
-                        <div class="col-md-2" style="margin-top: 1.5rem;">
-                            <i class="mr-2 bigger icon fas fa-certificate"></i>
-                        </div>
-                        <div class="col-md-10">
-                            <h5>Be a strategic advisor and executor</h5>
-                            <p>As your CISO, we will be monitoring the changing landscape of security and compliance as well as advising you on that impact to your company. Should you have a security incident, we will lead the execution of your incident response plan.</p>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+  
 
 <?php include 'includes/frontend_main/subs_footer.php'; ?>

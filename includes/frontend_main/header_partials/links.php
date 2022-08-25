@@ -13,6 +13,7 @@
         <meta name="description" content="Business, Consulting, Finance, Insurance, Startup and Technology, Traning, Courses">
         <meta name="subject" content="Business, Consulting, Finance, Insurance, Startup and Technology, Traning, Courses">
         <meta name="author" content="Innovare">
+        
 
         <!-- ==============================================
         Favicons

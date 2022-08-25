@@ -9,7 +9,7 @@
                 <div class="swiper-slide slide-center">
 
                     <!-- Media -->
-                    <img src="<?php echo $banner[0]->image_url; ?>" alt="Who we are" class="full-image" data-mask="80">
+                    <img src="<?php echo $properties['staticurl']?>assets/images/banners/banner-12.jpg" alt="Who we are" class="full-image" data-mask="80">
                     <div class="slide-content row text-center">
                         <div class="col-12 mx-auto inner">
                             <!-- Content -->
@@ -44,9 +44,9 @@
                     <div class="row">
                         <div class="col-12 p-0 pr-md-5">
                             
-                            <p>Innovare has a special focus on IT Governance, Audit, information Security and IT Service Delivery. Our aim is to provide proven knowledge transfer services to organisations in developing countries by building on our consultants’ years of experience, professionalism and integrity. We can tap into a large pool of experienced consultants who know the Ghanaian business environment. Our core set consultants have all the internationally recognized certification in information security including ISO 27001, PCI-DSS, CEH, ITIL, CISA, and CISSP.</p>
-
-                            <p></p>
+                        <p>The driving force behind INNOVARE has been engaged in thought leadership activities for nearly 20 years in the African business environment. From international conferences - physical & virtual - to regional workshops, we have successfully held events on subject matters ranging from Information Security, Audit, Governance, E-government, Finance to HR.  We have also put out a number of industry Editorials. We believe that an organization is best served by a fully resourced, fully updated and professionally competent member of staff. So, all our programs and editorials are geared towards ensuring that our audience return to their organizations skilled up. </p>
+                        <p>Innovare events also offer the unique opportunity to network and interact with top professionals, practitioners, consultants and service providers, both local and international. Special conducive environments are created at all Innovare conferences and workshops to encourage interactions. We are confident that any illusive solution that a participant might be looking for can be found at an Innovare event. INNOVARE prides itself on its ability to develop very focused and trendy content for all of its conference agendas. Delegates can be assured of top speakers who will thoroughly invigorate thought leadership direction.</p>
+                                                    <p></p>
                         </div>
                     </div>
                     

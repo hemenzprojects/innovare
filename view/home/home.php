@@ -175,7 +175,7 @@
                             <img src="<?php echo $properties['staticurl']?>assets/images/other/traning.jpg">
                             <!-- <i class="icon icon-cha></i> -->
                             <h4 class="" style="line-height: 2rem">Thought Leadership</h4>
-                            <p class="" style="margin-bottom: 10px;">We are the knowledge & skills transfer arm, committed to providing the most effective, high-quality education for working professionals and managers.</p>
+                            <p class="" style="margin-bottom: 10px;">The driving force behind INNOVARE has been engaged in thought leadership activities for nearly 20 years in the African business environment.</p>
                             <a href="<?php echo $properties['baseurl']?>thought-leadership"><i class="btn-icon pulse fas fas fa-arrow-right"></i></a>
                         </div>
                     </div>
