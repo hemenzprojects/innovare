@@ -84,7 +84,7 @@
 
                     <!-- Item 2 -->
                     <div class="swiper-slide slide-center swiper-slide-prev" style="width: 1263px;">
-
+                      <!-- good -->
                         <!-- Media -->
                         <img src="<?php echo $properties['staticurl']?>assets/images/career_2.jpg" alt="Full Image" class="full-image" data-mask="40">  
 
@@ -240,7 +240,7 @@
                     <div class="col-12 col-md-6 pr-md-5 align-self-center text-center text-md-left text items" style="padding-left: 50px;">
                         <div data-aos="fade-up" class="row intro mb-4 aos-init aos-animate">
                             <div class="col-12 p-0">
-                                <span class="pre-title m-auto m-md-0">About US</span>
+                                <span class="pre-title m-auto m-md-0">About US </span>
                                 <h2><span class="featured"><span>Who</span></span> we are</h2>
                                 <h3><span class="featured"><span>Providing Value-Driven </span></span> Information Security Service And Solution.</h3>
                                 <p><span class="featured1"><b>Innovare</b></span>  is a management consultancy company established to assist businesses innovate through adoption of frameworks and standards. Our offerings are based on some of industry best practices that manage and reduce risk, improve cyber/ information security, knowledge creation, accountability and effectiveness.</p>
