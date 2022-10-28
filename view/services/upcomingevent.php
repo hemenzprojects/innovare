@@ -342,10 +342,12 @@
                         <div class="quote">
                             <div class="quote-content">
                                 <h4>Your Complete Safe and Value-Driven adoption of Technology Is Our Goal</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lacinia diam.</p>
-                                <p>Vivamus efficitur et est quis posuere. Nulla sollicitudin vulputate dui, id pretium tortor congue eu. Integer aliquet justo eu quam volutpat ullamcorper.</p>
-                                <p>Duis ut hendrerit mauris. Phasellus faucibus ut enim vel tincidunt. Nunc venenatis a dui et laoreet.</p>
-                                <h5>T. Johnson</h5>
+
+                                <p>Our speakers for this year are renowned professionals with who will be providing attendees with detailed risk based information to equip participants in their various work fields.</p>
+                                <p>Considering the high profile nature of the Executive Insights participant, speakers at the event must be of similar profiles. All our speakers are or have been members of corporate board, most within regulated environments. </p>
+                                <p>All our speakers have numerous speaking engagements under their belts, having delivered all over the world.</p>
+
+                                <h5>INNOVARE</h5>
                             </div>
                             <i class="quote-right fas fa-quote-right"></i>
                         </div>
