@@ -22,7 +22,7 @@
 
                                    <div class="col-12 align-self-center">
                                     <span class="author">  <i class="fas fa-calendar-alt"></i>  <span style="color: #fff;margin:3px">  Wednesday 16th November 2022</span></span>
-                                    <span class="comment">  <i class="fas fa-map-marker-alt mr-2"></i>  <span style="color: #fff;">  La Beach Hotel, Accra</span></span>    
+                                    <span class="comment">  <i class="fas fa-map-marker-alt mr-2"></i>  <span style="color: #fff;">  Labadi Beach Hotel, Accra</span></span>    
                                     
 
                                 </div>
@@ -53,7 +53,7 @@
                             <div class="row post-meta mx-auto ml-lg-0">
                                 <div class="col-12 align-self-center">
                                     <span class="author"><i class="fas fa-calendar-alt"></i>Wednesday 16th November 2022</span>
-                                    <span class="comment"><i class="fas fa-comment-dots"></i>  La Beach Hotel, Accra</span>    
+                                    <span class="comment"><i class="fas fa-comment-dots"></i>  Labadi Beach Hotel, Accra</span>    
                                 </div>
                             </div>
                         </div>
