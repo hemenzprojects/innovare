@@ -264,7 +264,7 @@
                             <i class="icon icon-diamond"></i>
                             <h4>EXHIBITION</h4>
                             <span class="price" style="font-size:35px ;">
-                                <i>$</i>10,000<span class="plan"></span>
+                                <i>GHS</i>10,000<span class="plan"></span>
                             </span>  
                             <ul class="list-group list-group-flush">
                        
