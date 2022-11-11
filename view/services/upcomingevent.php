@@ -63,18 +63,20 @@
                             <P> As the Internet Age becomes more and more pervasive, the competence levels of the members of the governance structure continues to evolve. Now concepts like transformation, digital strategy, cyber defenses, information security, resilience, technology risk, insider-threat, social engineering, threat landscape, monitoring and access control have become new directions that they have to contend with, understand and incorporate in the formulation and adjustment of organizational strategy.   </p>
                             <p>They also need to be on top of all these issues to be able to ensure that Business value is derived from all the expenditure in technology. </p>
                               
+                            <h4>Innovare </h4>
+                            <p>Innovaré Limited is a multiple award winning Professional Services and Management Consulting Group based in Accra, Ghana. With a combined global experience of over eight (8) years’, our in- house consultants are experts in the areas of Cybersecurity, Internal Audit, Business Risk, Financial Services Solutions, Data Analytics and IT Governance. <a href="#">Read more</a></p>
                             </div>
+
                         </div>
                     </div>
                     <div data-aos="zoom-in" class="col-12 col-lg-4 aos-init aos-animate">
 
                     <div class="row item widget-categories">
-                            <div class="col-12 align-self-center">
+                            <!-- <div class="col-12 align-self-center">
                                 <h4 class="title">OUR SERVIES</h4>
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                         <a href="#">Financial Service Solution</a>
-                                        <!-- <span class="badge circle">23</span> -->
                                     </li>
                                     <li class="list-group-item d-flex justify-content-between align-items-center">
                                         <a href="#">IT & Audit</a>
@@ -84,16 +86,23 @@
                                     </li>
                                 
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     <img src="<?php echo $properties['staticurl']?>assets/images/exins4.png" class="fit-imag" alt="Fit Image">
                      <div style="border-radius:4px; background-color: #e23d31; padding:10px;margin-bottom: 20px;">
                      <p style="color: #fff;">It is very important that Board and Executive Management are able to interpret all the various reports emanating from strategic, security and assurance functions. Their ability to understand and absorb the content of the reports is critical to the successful execution of the enterprises’ strategy.<br> <strong>- CK Bruce CEO, Innovare</strong> </p>
 
                      </div>                            
-                   
+                     <div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+                    padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                    border-radius: 8px; will-change: transform;">
+                    <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFRoSCpp38&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                    </iframe>
                     </div>
                 </div>
+                </div>
+                
             </div>
         </section>
 
@@ -351,6 +360,39 @@
                             </div>
                             <i class="quote-right fas fa-quote-right"></i>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section-1 features offers featured">
+            <div class="container">
+            <div class="row text-center mt-5 pt-4">
+                    <div class="col-12 ">
+                        <h2 class="mb-5">Our <span class="featured"><span> Partners</span></span></h2>
+                        <div class="row ">
+                        <div class="col-md-3 mb-3">
+                                <img src="<?php echo $properties['staticurl']?>assets/images/p-gcbogo.jpg" style="width: 70%;">
+                                
+                            </div> 
+                            <div class="col-md-3 mb-3">
+                                <img src="<?php echo $properties['staticurl']?>assets/images/p-agilogo.png" style="width: 70%;">                      
+                                <!-- <h4>Digital Wallet</h4>                     -->
+                            </div> 
+                          
+                            <div class="col-md-3 mb-3">
+                                <img src="<?php echo $properties['staticurl']?>assets/images/p-ghpost.png" style="width: 70%;">
+                                <!-- <br>                       -->
+                                <!-- <h4>Cards & Payments Gateway</h4>                     -->
+                            </div> 
+
+                            <div class="col-md-3 mb-3">
+                                <img src="<?php echo $properties['staticurl']?>assets/images/p-joybusiness.png" style="width: 70%;">
+                                <!-- <br>                       -->
+                                <!-- <h4>Cards & Payments Gateway</h4>                     -->
+                            </div> 
+                        </div>
+                        
                     </div>
                 </div>
             </div>
