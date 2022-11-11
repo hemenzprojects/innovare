@@ -64,6 +64,7 @@
                                 <div class="buttons">
                                     <div class="d-sm-inline-flex">
                                         <a href="<?= $properties['baseurl']?>home" target="_blank" class="m-auto btn primary-button">Home</a>
+                                        <a href="<?= $properties['baseurl']?>upcomingevent" class="smooth-anchor ml-auto mr-auto mt-3 mt-sm-0 ml-sm-4 btn outline-button">Upcoming Event</a>
                                         <a href="contact-us" class="smooth-anchor ml-auto mr-auto mt-3 mt-sm-0 ml-sm-4 btn outline-button">Contact Us</a>
                                     </div>
                                 </div>
