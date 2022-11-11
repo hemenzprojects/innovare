@@ -342,10 +342,54 @@
                                 <p>Ethics and integrity are the bases on which our professionals build their careers.<br>They are fundamentals that become daily attitudes.</p>
                             </div>
                         </div>
-                        <div class="row items text-left">
+                        <!-- <div class="row items text-left">
                         <img src="<?php echo $properties['staticurl']?>assets/images/exins6.png" class="fit-imag" alt="Fit Image">
 
-                        </div>
+                        </div> -->
+
+                        <div class="row items text-left">
+
+<?php 
+
+    if ( !empty( $innovare->getActiveInstructor() ) ) {
+        
+        foreach ($innovare->getActiveInstructor() as $team_info ) {
+            // var_dump($team_info);die();
+            # code...
+ 
+?>
+    <div class="col-12 col-md-6 p-0 mb-3 ">
+        <div class="row item row-eq-height">
+
+            <div class="col-4 p-0 pr-2 align-self-center">
+                <img src="<?php  echo $team_info->thumbnail; ?>" alt="Person" class="person">
+            </div>
+
+            <div class="col-8 align-self-center text-left pt-2">
+                <a class="board-member-name" href="team-member-info/<?php  echo $team_info->slug; ?>"><h4 style="margin-top: 0px;margin-bottom: 0px;"><?php echo $team_info->name; ?></h4></a>
+                <p style="margin-top: 0px;margin-bottom: 0px;"><?php  echo $team_info->position; ?></p>
+                <!-- <ul class="navbar-nav social share-list ml-auto">
+                    <li class="nav-item">
+                        <a href="<?php  echo $team_info->facebook; ?>" class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?php  echo $team_info->twitter; ?>" class="nav-link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?php  echo $team_info->linkedin; ?>" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul> -->
+            </div> 
+
+        </div>                        
+
+    </div>
+<?php } }else{ ?>
+
+    <h3 class="text-center">NOTHING TO DISPLAY</h3>
+
+<?php } ?>    
+</div>
                     </div>
                     <div data-aos="zoom-in" class="col-12 col-lg-4 align-self-end aos-init aos-animate">
                         <div class="quote">
@@ -398,52 +442,4 @@
             </div>
         </section>
 
-        <div id="simple-user-cards-with-border" class="row mt-2">
-                                    <?php foreach ($innovare->getActiveInstructor() as $team_info): 
-                                            // var_dump($team_info);die();
-                                        ?>
-                                        <div class="col-xl-3 col-md-6 col-12">
-                                            <div class="card border-success border-lighten-3" style="box-shadow: 0 2px 1px rgb(0 0 0 / 5%)!important;">
-                                                <div class="text-center">
-                                                    <div class="card-body">
-                                                        <img src="<?php echo $team_info->thumbnail ?>" class="rounded-circle  height-150" alt="Card image">
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <h4 class="card-title capital"><?php echo $team_info->title ?>. <?php echo $team_info->name ?></h4>
-                                                        <h6 class="card-subtitle text-muted"><?php echo $team_info->position ?></h6>
-                                                    </div>
-                                                    <div class="text-center mt-1" >
-                                                        <a href="<?php echo $team_info->facebook ?>" class="btn btn-social-icon mr-1 mb-1 btn-outline-facebook"><span class="fa fa-facebook"></span></a>
-
-                                                        <a href="<?php echo $team_info->twitter ?>" class="btn btn-social-icon mr-1 mb-1 btn-outline-twitter"><span class="fa fa-twitter"></span></a>
-
-                                                        <a href="<?php echo $team_info->linkedin ?>" class="btn btn-social-icon mr-1 mb-1 btn-outline-linkedin"><span class="fa fa-linkedin font-medium-4"></span></a>
-
-                                                        <a href="<?php echo $team_info->instagram ?>" class="btn btn-social-icon mb-1 btn-outline-instagram"><span class="fa fa-instagram font-medium-4"></span></a>
-                                                    </div>
-                                                    <hr class="m-0" style="margin-top: 1rem !important;margin-bottom: 1rem !important;">
-
-                                                    <div class="tool-container tool-bottom toolbar-dark  option mb-1" style="">
-                                                        <div class="tool-items">
-
-                                                            <a href="<?php echo $properties['baseurl']?>view-team-member-details/<?php echo $team_info->id?>" title="View" class="tool-item">
-                                                                <i class="fas fa-eye" aria-hidden="true"></i>
-                                                            </a>
-
-                                                            <a href="?archive&team_id=<?php echo $team_info->id ?>" title="Archive" class="tool-item">
-                                                                <i class="fas fa-archive" aria-hidden="true"></i>
-                                                            </a>
-
-                                                            <a href="?delete&team_id=<?php echo $team_info->id ?>" title="Delete" class="tool-item">
-                                                                <i class="fas fa-trash-alt" aria-hidden="true"></i>
-                                                            </a>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php endforeach ?>
-
-                                    
-                                </div>
+   
